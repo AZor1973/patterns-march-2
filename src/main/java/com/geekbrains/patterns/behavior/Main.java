@@ -16,9 +16,6 @@ import java.util.function.Consumer;
 
 public class Main {
 
-    static <T> T get(T o) {
-
-    }
 
     static void foo(Consumer<Integer> consumer, int x) {
         consumer.accept(x);
